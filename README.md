@@ -24,14 +24,19 @@ This project creates an MCP server that allows AI models like Claude to access r
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/yfinance-mcp.git
-   cd yfinance-mcp
+   git clone https://github.com/dino65-dev/Finance_mcp-server.git
    ```
 
-2. Create a virtual environment (recommended):
+2. Create a virtual environment:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   On Windows: venv\Scripts\activate
+   ```
+ Create a virtual environment (recommended) for faster creation:
+   ```bash
+   pip install uv
+   uv venv
+   On Windows: venv\Scripts\activate
    ```
 
 3. Install dependencies:
